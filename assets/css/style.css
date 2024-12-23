@@ -1,0 +1,116 @@
+/* Tipografías */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+/* Inicialización de CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: var(--fuente-base);
+}
+
+/* Variables */
+:root {
+    --color-primario: #2c3e50;
+    --color-secundario: #34495e;
+    --color-terciario: #7f8c8d;
+    --color-fondo: #ecf0f1;
+    --color-texto: #333;
+    --color-titulos: #2c3e50;
+    --fuente-base: 'Arial', sans-serif;
+    --fuente-titulos: 'Oswald', serif;
+}
+
+/* Estilos generales */
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estructura de la página */
+header {
+    background-color: var(--color-primario);
+    font-family: var(--fuente-titulos);
+    color: white;
+    text-align: left;
+    padding: 1rem;
+}
+
+header > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav {
+    background-color: var(--color-secundario);
+    color: white;
+    text-align: center;
+    padding: 0.75rem;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+nav a {
+    color: var(--color-fondo);
+    font-family: var(--fuente-titulos);
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    background-color: white;
+}
+
+article {
+    background-color: var(--color-terciario);
+    padding: 1rem;
+    margin: 0.5rem;
+    flex: 2;
+}
+
+aside {
+    background-color: var(--color-secundario);
+    padding: 1rem;
+    color: white;
+    flex: 1;
+}
+
+footer {
+    background-color: var(--color-primario);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+/* Tipografía */
+h1, h2, h3 {
+    font-family: var(--fuente-titulos);
+    color: var(--color-titulos);
+}
+
+p {
+    margin: 1rem 0;
+}
+
+a {
+    color: var(--color-fondo);
+}
+
