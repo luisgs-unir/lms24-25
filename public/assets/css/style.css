@@ -37,9 +37,9 @@ body {
 
 /* Estructura de la página */
 header {
-    background-color: var(--color-fondo);
+    background-color: var(--color-primario);
     font-family: var(--fuente-titulos);
-    color: var(--color-primario);
+    color: var(--color-fondo);
     text-align: left;
     padding: 1rem;
 }
