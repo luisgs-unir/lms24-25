@@ -1,0 +1,133 @@
+.color-texto {
+  color: red;
+  color: rgb(123, 123, 123);
+  color: rgba(4, 109, 36, 0.5);
+  color: #ff5500;
+  color: #f50;
+}
+
+.color-fondo {
+}
+
+.color-borde {
+  color: crimson;
+  border: 5px solid currentColor;
+}
+
+/* unidades en CSS */
+
+.pulgadas {
+  font-size: 1in;
+}
+.centimetros {
+  font-size: 1cm;
+}
+.picas {
+  font-size: 2pc;
+}
+.milimetros {
+  font-size: 2mm;
+}
+.puntos {
+  font-size: 2pt;
+}
+
+/* Unidades relativas */
+.em {
+  font-size: 1em;
+}
+.ex {
+  font-size: 1ex;
+}
+.rem {
+  font-size: 1rem;
+}
+.ch {
+  font-size: 1ch;
+}
+.px {
+  font-size: 1px;
+}
+.porcentaje {
+  font-size: 1porcentaje;
+}
+
+.dimensiones {
+  width: 100px;
+  height: 50px;
+  /* px; %; em; rem */
+}
+
+/* Modelo de caja */
+.caja-fuera {
+}
+
+#caja-dentro-1 {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+#caja-dentro-2 {
+}
+
+/* Overflow */
+
+.rebosado {
+    width: 100px;
+    height: 100px;
+    overflow: auto;
+    overflow: scroll;
+    overflow: visible;
+    overflow: hidden;
+}
+
+
+/* Zonas */
+.zonas{
+    width: 200px;
+    height: 200px;
+}
+
+.zonas-dentro {
+    background-color:tomato;
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: auto;
+    margin-left: auto;
+    
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: auto;
+    padding-left: auto;
+}
+
+.zonas-mas-dentro{
+    background-color:blueviolet;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: auto;
+    margin-left: auto;
+    
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: auto;
+    padding-left: auto;
+}
+
+/* Centrado de elementos */
+.centrado-contenedor {
+    background-color:yellowgreen;
+    padding: 1rem;
+}
+
+.centrado-contenido {
+    display: block;  /* las imágenes no se comportan como bloques */
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}

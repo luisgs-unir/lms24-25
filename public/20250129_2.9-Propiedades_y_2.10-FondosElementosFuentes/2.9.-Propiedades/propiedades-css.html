@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2.9. Propiedades CSS</title>
+
+    <link
+      rel="stylesheet"
+      href="../../assets/css/estilo-apuntes.css"
+      type="text/css"
+    />
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="../../assets/imgs/css-3-logo.png" alt="logo CSS3" />
+      <h1>2.9. Propiedades CSS</h1>
+    </header>
+    <nav>
+      <menu>
+        <ul>
+          <li><a href="#colores">Colores en CSS</a></li>
+          <li><a href="#unidades">Unidades de medidas en CSS</a></li>
+          <li><a href="#caja">Modelos de Cajas en CSS</a></li>
+          <li>
+            <a href="#bordes">Bordes de Cajas</a>
+            <ul>
+              <li>
+                <a href="#tipos-bordes"
+                  >Tipos de Bordes de Cajas: Ejemplos y Estilos</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </menu>
+    </nav>
+
+    <body>
+      <section>
+        <h2 id="colores">Colores en CSS</h2>
+
+        <div class="color-texto">
+          <h3>Color de texto</h3>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid harum
+          nisi in ipsam temporibus beatae iure assumenda ratione impedit,
+          veritatis magnam maxime. Enim totam voluptas eaque dolor.
+          Exercitationem, quo reiciendis?
+        </div>
+
+        <div class="color-fondo">
+          <h3>Color fondo</h3>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem
+          numquam quod blanditiis. Voluptatum cumque soluta veritatis deleniti!
+          Perferendis nobis, corporis assumenda a quam, omnis ab maiores dolorem
+          ducimus rem provident.
+        </div>
+
+        <div class="color-borde">
+          <h3>Color borde</h3>
+
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem
+          numquam quod blanditiis. Voluptatum cumque soluta veritatis deleniti!
+          Perferendis nobis, corporis assumenda a quam, omnis ab maiores dolorem
+          ducimus rem provident.
+        </div>
+      </section>
+
+      <section>
+        <h2 id="unidades">Unidades de medidas en CSS</h2>
+
+        <h3>Unidades absolutas</h3>
+        <ul>
+          <li>Poco flexibles</li>
+          <li>Medios no variables: impressos</li>
+        </ul>
+
+        <span class="pulgadas">pulgadas</span>
+        <span class="centimetros">centimetros</span>
+        <span class="picas">picas</span>
+        <span class="milimetros">milimetros</span>
+        <span class="puntos">puntos</span>
+        <span class="pulgadas">pulgadas</span>
+
+        <h3>Unidades relativas</h3>
+        <ul>
+          <li>Dependen de otras medidas</li>
+          <li>Muy flexibles</li>
+          <li>Muy comunes</li>
+          <li>Uso en responsive</li>
+        </ul>
+
+        <ul>
+          <li class="em">1em = tamaño fuente contenedor actual</li>
+          <li class="ex">1ex =~ tamaño fuente/2</li>
+          <li class="rem">1rem = tamaño fuente general</li>
+          <li class="ch">1ch = ancho del cero</li>
+          <li class="px">1px = 1 píxel</li>
+          <li class="porcentaje">10% relativa a herencia</li>
+        </ul>
+
+        <h3>Dimensiones</h3>
+        <ul>
+          <li>width : ancho</li>
+          <li>height : alto</li>
+
+          <div class="dimensiones">Esto es un div</div>
+        </ul>
+
+        <h3>Unidades flexibles de viewport</h3>
+        <ul>
+          <li>Región visibre lde la página web en el navegador</li>
+          <li>Porcentaje del tamaño de la ventana</li>
+        </ul>
+
+        <h4>Unidades:</h4>
+        <ul>
+          <li>vw: ancho</li>
+          <li>vh: alto</li>
+          <li>vmin: porcentaje del alto o ancho</li>
+          <li>vmax: porcentaje del alto o ancho</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 id="caja">Modelo de Cajas en CSS</h2>
+        <blockquote
+          cite="https://campusfp.unir.net/courses/2291/files/222033?module_item_id=60758"
+        >
+          Todos los elementos de una web son cajas con los siguientes
+          componentes:
+        </blockquote>
+
+        <img src="ModeloCajaCSS.png" alt="Modelo de caja en CSS" />
+
+        <div class="caja-fuera">
+          <div id="caja-dentro-1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+            accusamus eos corporis libero sunt labore vitae inventore rerum,
+            esse, ut ex eligendi ullam sint temporibus enim. Exercitationem
+            nulla magni nisi.
+          </div>
+          <div id="caja-dentro-2">
+            Corporis eaque provident suscipit temporibus quisquam amet
+            molestias, laboriosam earum inventore, in vero corrupti quod eum
+            voluptas dolore pariatur animi deleniti omnis. Enim reprehenderit
+            incidunt sequi, impedit praesentium nostrum iste?
+          </div>
+        </div>
+
+        <h3>Overflow</h3>
+        <div class="rebosado">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore id
+            animi odit saepe cumque consequatur eveniet illo ad ut molestias
+            odio eligendi dolorem accusamus blanditiis, quo minima, consectetur
+            nulla delectus.
+          </p>
+        </div>
+
+        <div class="rebosado">
+          <img src="../../assets/imgs/mortadelo2.jpg" alt="" />
+        </div>
+
+        <h3>Zonas de un elemento</h3>
+
+        <ul>
+          <li>Top</li>
+          <li>Left</li>
+          <li>Right</li>
+          <li>Bottom</li>
+          <li>Center</li>
+        </ul>
+
+        <img src="zonas.png" alt="Zonas de un elemento" />
+
+        <h3>Márgenes y Espaciados (margin y padding)</h3>
+        <table>
+          <tr>
+            <td>margin-top</td>
+            <td>padding-top</td>
+          </tr>
+          <tr>
+            <td>margin-left</td>
+            <td>padding-left</td>
+          </tr>
+          <tr>
+            <td>margin-right</td>
+            <td>padding-right</td>
+          </tr>
+          <tr>
+            <td>margin-</td>
+            <td>padding-</td>
+          </tr>
+        </table>
+
+        <div class="zonas">
+          <div class="zonas-dentro">
+            <div class="zonas-mas-dentro"></div>
+          </div>
+        </div>
+
+        <h3>Centrado horizontal de un elemento</h3>
+
+        <div class="centrado-contenedor">
+            <img
+              class="centrado-contenido"
+              src="../../assets/imgs/centrada.jpg"
+            />
+        </div>
+      </section>
+      <section>
+        <h2 id="bordes">Bordes de Cajas</h2>
+
+        <h3 id="tipos-bordes">Tipos de Bordes de Cajas: Ejemplos y Estilos</h3>
+      </section>
+    </body>
+  </body>
+</html>
