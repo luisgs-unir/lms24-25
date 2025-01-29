@@ -1,0 +1,115 @@
+/* Incorporación de fuente personalizada */
+@font-face {
+    font-family: 'MiFuentePersonalizada';
+    src: url('PermanentMarker-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --fuente-titulos: 'MiFuentePersonalizada', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: var(--fuente-titulos);
+}
+
+div {
+    margin: 2rem;
+}
+
+/* Fondos */
+
+.fondo-color {
+    background-color: lightblue;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+}
+
+.fondo-gradiente {
+    background: linear-gradient(to right, red, yellow);
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+}
+
+.fondo-imagen {
+    background-image: url('ministerio.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 150px;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+}
+
+.fondo-varias-imagenes {
+    /*
+    background-image: url('velazquez.png'), url('ministerio.jpg');
+    */
+    background-image: url('R.png'), url('R1.png'), url('R2.png'), url('Caballeros-del-Zodiaco-8_blur.png');
+    background-position: top center, top left, bottom right, bottom center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 50%, 30%, 35%, contain;
+    /*
+    border: 1px solid black;
+    */
+    width: 650px;
+    height: 300px;
+
+    color: white;
+    text-align: right;
+    line-height: 600px;
+    padding: 1rem 3rem;
+    margin: auto;
+}
+
+/* Tipos de elementos */
+.inline {
+    display: inline;
+    color: blue;
+    font-weight: bold;
+    background-color:deepskyblue;
+    padding: 0.5rem;
+}
+
+.block {
+    display: block;
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Tipografías */
+.serif {
+    font-family: "Times New Roman", serif;
+}
+
+.sans-serif {
+    font-family: Arial, sans-serif;
+}
+
+.font-size {
+    font-size: 20px;
+}
+
+.font-style {
+    font-style: italic;
+}
+
+.font-weight {
+    font-weight: bold;
+}
+
+.line-height {
+    line-height: 2;
+}
+
+a::before{
+    content: "🌐 ";
+}
