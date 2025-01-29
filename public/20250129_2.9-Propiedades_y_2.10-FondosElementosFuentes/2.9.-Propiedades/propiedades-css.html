@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>2.9. Propiedades CSS</title>
 
-    <link
-      rel="stylesheet"
+    <link rel="stylesheet"
       href="../../assets/css/estilo-apuntes.css"
       type="text/css"
     />
@@ -15,7 +14,7 @@
   </head>
   <body>
     <header>
-      <img id="logo" src="../../assets/imgs/css-3-logo.png"  />
+      <img id="logo" src="../../assets/imgs/css-3-logo.png" alt="Logotipo de CSS3" />
       <h1>2.9. Propiedades CSS</h1>
     </header>
     <nav>
@@ -50,7 +49,7 @@
           Exercitationem, quo reiciendis?
         </div>
 
-        <div class="color-fondo">
+        <div class="color-fondo color-borde"> <!-- Estamos aplicando dos clases CSS a la misma etiqueta HTML-->
           <h3>Color fondo</h3>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem
           numquam quod blanditiis. Voluptatum cumque soluta veritatis deleniti!
@@ -82,7 +81,6 @@
         <span class="picas">picas</span>
         <span class="milimetros">milimetros</span>
         <span class="puntos">puntos</span>
-        <span class="pulgadas">pulgadas</span>
 
         <h3>Unidades relativas</h3>
         <ul>
@@ -92,15 +90,17 @@
           <li>Uso en responsive</li>
         </ul>
 
-        <ul>
-          <li class="em">1em = tamaño fuente contenedor actual</li>
-          <li class="ex">1ex =~ tamaño fuente/2</li>
-          <li class="rem">1rem = tamaño fuente general</li>
-          <li class="ch">1ch = ancho del cero</li>
-          <li class="px">1px = 1 píxel</li>
-          <li class="porcentaje">10% relativa a herencia</li>
-        </ul>
-
+        <div class="unidades-relativas">
+          <ul>
+            <li class="em">1em = tamaño fuente contenedor actual</li>
+            <li class="porcentaje">10% relativa a herencia</li>
+            <li class="ex">1ex =~ tamaño fuente/2</li>
+            <li class="rem">1rem = tamaño fuente general</li>
+            <li class="ch">1ch = ancho del cero</li>
+            <li class="px">1px = 1 píxel</li>
+          </ul>
+        </div>
+          
         <h3>Dimensiones</h3>
         <ul>
           <li>width : ancho</li>
@@ -121,6 +121,8 @@
           <li>vmin: porcentaje del alto o ancho</li>
           <li>vmax: porcentaje del alto o ancho</li>
         </ul>
+
+        <div class="viewport-unidades"></div>
       </section>
 
       <section>
