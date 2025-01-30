@@ -37,7 +37,7 @@ div {
 }
 
 .fondo-imagen {
-    background-image: url('ministerio.jpg');
+    background-image: url('imgs/ministerio.jpg');
     background-size: cover;
     background-position: center;
     width: 300px;
@@ -49,9 +49,9 @@ div {
 
 .fondo-varias-imagenes {
     /*
-    background-image: url('velazquez.png'), url('ministerio.jpg');
+    background-image: url('imgs/velazquez.png'), url('imgs/ministerio.jpg');
     */
-    background-image: url('R.png'), url('R1.png'), url('R2.png'), url('Caballeros-del-Zodiaco-8_blur.png');
+    background-image: url('imgs/R.png'), url('imgs/R1.png'), url('imgs/R2.png'), url('imgs/Caballeros-del-Zodiaco-8_blur.png');
     background-position: top center, top left, bottom right, bottom center;
     background-repeat: no-repeat, no-repeat;
     background-size: 50%, 30%, 35%, contain;
