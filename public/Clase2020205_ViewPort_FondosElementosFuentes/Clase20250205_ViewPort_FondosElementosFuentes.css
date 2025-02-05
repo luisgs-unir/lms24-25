@@ -7,10 +7,21 @@
 }
 
 :root {
-    --fuente-titulos: 'MiFuentePersonalizada', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    --fuente-titulos: 'MiFuentePersonalizada', serif;
+    --fuente-que-no-voy-a-usar: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+
+
 }
 
 h1, h2, h3 {
+    /* 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    */
     font-family: var(--fuente-titulos);
 }
 
@@ -21,15 +32,20 @@ div {
 /* Fondos */
 
 .fondo-color {
+    margin: 0;
     background-color: lightblue;
     width: 300px;
-    height: 150px;
-    text-align: center;
-    line-height: 150px;
+    width: 100vw;
+    height: 250px;
+    text-align: justify;
+    padding: 1em 1em 5em 3em;
+    
+    line-height: 1em;
 }
 
 .fondo-gradiente {
     background: linear-gradient(to right, red, yellow);
+    background: radial-gradient(circle, red, yellow, green);
     width: 300px;
     height: 150px;
     text-align: center;
@@ -38,13 +54,17 @@ div {
 
 .fondo-imagen {
     background-image: url('imgs/ministerio.jpg');
-    background-size: cover;
-    background-position: center;
+    /*
+    background-size:;
+    */
+    background-position:center;
     width: 300px;
     height: 150px;
     color: white;
     text-align: center;
     line-height: 150px;
+
+    margin: 1rem auto;
 }
 
 .fondo-varias-imagenes {
@@ -54,7 +74,7 @@ div {
     background-image: url('imgs/R.png'), url('imgs/R1.png'), url('imgs/R2.png'), url('imgs/Caballeros-del-Zodiaco-8_blur.png');
     background-position: top center, top left, bottom right, bottom center;
     background-repeat: no-repeat, no-repeat;
-    background-size: 50%, 30%, 35%, contain;
+    background-size: 75%, 30%, 35%, contain;
     /*
     border: 1px solid black;
     */
@@ -70,11 +90,12 @@ div {
 
 /* Tipos de elementos */
 .inline {
-    display: inline;
+    display: block;
     color: blue;
     font-weight: bold;
     background-color:deepskyblue;
-    padding: 0.5rem;
+    padding: 2rem;
+    margin: 3rem;
 }
 
 .block {
