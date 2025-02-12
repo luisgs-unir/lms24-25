@@ -1,10 +1,8 @@
-Aquí tienes un breve guion sobre cada propiedad de CSS que mencionaste, seguido del código HTML y CSS correspondiente.
-
----
+# 20250212 - Mini apuntes de 2.11 Texto, Tablas, Listas, mini-menú
 
 ## 📌 **Guion sobre propiedades CSS**
 
-### ✍️ **Alineación de textos**
+#20250212 - Mini apuntes de 2.11 Texto, Tablas, Listas, mini-menú## ✍️ **Alineación de textos**
 - **`text-align`**: Define la alineación del texto dentro de un elemento. Valores:
   - `left`, `right`, `center`, `justify`.
 - **`text-indent`**: Controla la sangría de la primera línea de un párrafo. Ejemplo: `text-indent: 20px;`
