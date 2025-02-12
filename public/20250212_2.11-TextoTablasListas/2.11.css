@@ -1,0 +1,145 @@
+
+.derecha{
+    text-align: right;
+}
+.izquierda{
+    text-align: left;
+}
+.centrado{
+    text-align: center;
+    text-decoration: underline wavy red 3px;
+    margin-bottom: 2rem;
+}
+.justificado{
+    text-indent: -4rem;
+    text-align: justify;
+    margin-left: 6rem;
+    border: 1px solid black;
+}
+
+.subrayado{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 3px;
+    margin-bottom: 2rem;
+    border: 1px solid black;
+}
+
+.sin_subrayar {
+    text-decoration: none;
+}
+
+table {
+    border: 3px solid black;
+    /*
+    border-collapse: collapse;
+    */
+    border-spacing: 1rem;
+    caption-side: bottom;
+    empty-cells: hide;
+    table-layout: fixed;
+}
+td {
+    border: 3px solid black;
+    width: 5rem;
+}
+
+.lista {
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style-position: outside;
+    list-style-type: decimal-leading-zero;
+    /*
+    list-style-image: url('walterwhite.png');
+    */
+}
+
+.lista_chula {
+    margin-left: 0px;
+    padding-left: 0px;
+   
+    list-style-image: url('robot.png') ;
+    /*
+    background-image: url('robot.png');
+    */
+}
+
+.lista_chula li {
+    margin-top: 50px;
+}
+
+.lista_chula li::before {
+    content: 
+    "😻 ";
+    /*
+    url('robot.png');
+    */
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+}
+
+
+/* MENU */
+
+nav ul {
+    background-color: sienna;
+}
+
+nav li {
+    display: inline;
+    /*
+    float: left;
+    list-style-position: inside;
+    */
+    list-style: none;
+    background-color: tomato;
+    margin-left: 1rem;
+    padding: 0.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    cursor: url('espada.png'), pointer;
+}
+
+nav li:hover {
+    /*
+    color: black;
+    */
+    background-color: yellow;
+}
+
+nav li:hover a {
+    color: black;
+}
+
+
+#ejemplo {
+    color: black;
+    padding: 0.5rem;
+    background-color: yellowgreen;
+    background-image: url('walterwhite.png');
+    background-size: 100px 50px;
+    width: 50px;
+    height: 100px;
+    margin-bottom: 9rem;
+    margin-top: 50rem;
+}
+
+.letra {
+    font-size: 48px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    border: 1px solid white;
+}
+
+.elemento{
+    font-size: 10px;
+    margin-top: 0px;
+    border: 1px solid white;
+}
+
+
