@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h1>Pokedex</h1>
+
+    <table>
+        <tr>
+            <td>
+                <img class="pokemon" src="./img/bulbasur.png" alt="Bulbasur">
+                <p class="nombre">Bulbasur</p>
+            </td>
+            <td>
+                <img class="pokemon" src="./img/ivysaur.png" alt="ivysaur">
+                <p class="nombre">Ivysaur</p>
+            </td>
+            <td>
+                <img class="pokemon" src="img/venosaur.png" alt="venosaur">
+                <p class="nombre">Venosaur</p>
+            </td>
+            <td>
+                <img class="pokemon" src="./img/charmander.png" alt="charmander">
+                <p class="nombre">Charmander</p>
+            </td>
+        </tr>
+
+        tr>td*4>(img.pokemon+p.nombre)
+        <tr id="con_imagen_de_fondo">
+            <td id="charmeleon">
+                <p class="nombre">charmeleon</p>
+            </td>
+            <td id="charizard">
+                <p class="nombre">charizard</p>
+            </td>
+            <td id="squirtle">
+                <p class="nombre">squirtle</p>
+            </td>
+            <td id="wartortle">
+                <p class="nombre">wartortle</p>
+            </td>
+        </tr>
+        <tr></tr>
+    </table>
+
+    <div id="formulario">
+        <form action="mailto:pepe@gmail.com">
+            <div class="elemento">
+                <label for="nombre">Nombre*: </label>
+                <input type="text" name="nombre" id="nombre" required>
+            </div>
+
+            <div class="elemento">
+                <label for="email">email*: </label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div class="elemento">
+                <label for="fnacimiento">Fecha de nacimiento: </label>
+                <input type="date" name="fnacimiento" id="fnacimiento">
+            </div>
+
+            <div class="elemento">
+                <input type="reset" value="Borrar">
+
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+
+    <div id="ejemplo_display">
+        <div class="dentro">1</div>
+        <div class="dentro">2</div>
+        <div class="dentro">3</div>
+        <div class="dentro">3</div>
+        <div class="dentro">3</div>
+        <div class="dentro">3</div>
+        <div class="dentro">3</div>
+    </div>
+</body>
+
+</html>
