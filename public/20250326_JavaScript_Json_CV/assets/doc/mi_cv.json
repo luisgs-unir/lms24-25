@@ -1,0 +1,24 @@
+{
+    "nombre": "Luis García", 
+    "edad": 45, 
+    "profesion": "Profe de LMS", 
+    "email": "luis@micorreo.com", 
+    "experiencias": [
+        {
+            "empresa": "UNIR", 
+            "puesto": "profesor", 
+            "años": 2, 
+            "periodo": "2018 - 2020"
+        }, 
+        {
+            "empresa": "Mercadona",
+            "puesto":"reponedor",
+            "años": 10
+        }, 
+        {
+            "empresa": "Bankia",
+            "puesto": "Analista",
+            "años": 2026
+        }
+    ]
+}
